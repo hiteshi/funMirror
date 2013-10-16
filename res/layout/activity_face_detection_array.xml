@@ -1,0 +1,188 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".FaceDetectionArray" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/face1"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_margin="10dp"
+                android:contentDescription="@string/faceSample"
+                android:src="@drawable/face1" />
+
+            <TextView
+                android:id="@+id/face1Count"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="@string/Face_not_Found" />
+
+            <ImageView
+                android:id="@+id/face2"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_margin="10dp"
+                android:contentDescription="@string/faceSample"
+                android:src="@drawable/face2" />
+
+            <TextView
+                android:id="@+id/face2Count"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="@string/Face_not_Found" />
+
+            <ImageView
+                android:id="@+id/face3"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_margin="10dp"
+                android:contentDescription="@string/faceSample"
+                android:src="@drawable/face3" />
+
+            <TextView
+                android:id="@+id/face3Count"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="@string/Face_not_Found" />
+
+            <ImageView
+                android:id="@+id/face4"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_margin="10dp"
+                android:contentDescription="@string/faceSample"
+                android:src="@drawable/face4" />
+
+            <TextView
+                android:id="@+id/face4Count"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="@string/Face_not_Found" />
+
+            <ImageView
+                android:id="@+id/face5"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_margin="10dp"
+                android:contentDescription="@string/faceSample"
+                android:src="@drawable/face5" />
+
+            <TextView
+                android:id="@+id/face5Count"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="@string/Face_not_Found" />
+
+            <ImageView
+                android:id="@+id/face6"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_margin="10dp"
+                android:contentDescription="@string/faceSample"
+                android:src="@drawable/face6" />
+
+            <TextView
+                android:id="@+id/face6Count"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="@string/Face_not_Found" />
+
+            <ImageView
+                android:id="@+id/face7"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_margin="10dp"
+                android:contentDescription="@string/faceSample"
+                android:src="@drawable/face7" />
+
+            <TextView
+                android:id="@+id/face7Count"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="@string/Face_not_Found" />
+
+            <ImageView
+                android:id="@+id/face8"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_margin="10dp"
+                android:contentDescription="@string/faceSample"
+                android:src="@drawable/face8" />
+
+            <TextView
+                android:id="@+id/face8Count"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="@string/Face_not_Found" />
+
+            <ImageView
+                android:id="@+id/face9"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_margin="10dp"
+                android:contentDescription="@string/faceSample"
+                android:src="@drawable/face9" />
+
+            <TextView
+                android:id="@+id/face9Count"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="@string/Face_not_Found" />
+
+            <ImageView
+                android:id="@+id/face10"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_margin="10dp"
+                android:contentDescription="@string/faceSample"
+                android:src="@drawable/face10" />
+
+            <TextView
+                android:id="@+id/face10Count"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="@string/Face_not_Found" />
+
+            <ImageView
+                android:id="@+id/face11"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_margin="10dp"
+                android:contentDescription="@string/faceSample"
+                android:src="@drawable/face11" />
+
+            <TextView
+                android:id="@+id/face11Count"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="@string/Face_not_Found" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
